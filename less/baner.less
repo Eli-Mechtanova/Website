@@ -1,4 +1,4 @@
-.promo{
+.banner{
     position: relative;
     max-width: 100%;
     width: 55%;
@@ -12,12 +12,12 @@
     box-shadow: 0 3px 16px rgba(0, 0, 0, 0.12);
     border-radius: 10px;
     margin-bottom: -105px;
-    .promo__heading{
-        margin-bottom: 15px;
-        border: none;
-    }
 }
-.promo__btn--modify{
+.banner__heading{
+    margin-bottom: 15px;
+    border: none;
+}
+.banner__btn{
     margin-top: 20px;
     padding: 24px 105px;
     border-radius: 40px;
@@ -27,13 +27,14 @@
     border: none;
 }
 @media( max-width:992px){
-    .promo{
+    .banner{
         width: 90%;
-        .promo__heading{
-            font-size: 22px;
-        }.promo__btn{
-            padding: 15px 30px;
-            font-size: 16px;
-        }
+    }
+    .banner__heading{
+        font-size: 22px;
+    }
+    .banner__btn{
+        padding: 15px 30px;
+        font-size: 16px;
     }
 }
